@@ -1,0 +1,12 @@
+syntax = "proto3";
+option php_metadata_namespace = "GPBMetadata";
+
+import "google/protobuf/timestamp.proto";
+
+message Analyze {
+   string ip = 1;
+   string agent = 2;
+   string path = 3;
+   string duration = 4;
+   google.protobuf.Timestamp created_at = 5;
+}
