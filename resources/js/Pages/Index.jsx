@@ -17,7 +17,7 @@ export default function Index({ data }) {
                     <div className="flex justify-between items-center">
                         <div className="flex justify-between gap-10">
                             <a className="py-4 rounded-lg text-center bg-[#1A86BA] w-[150px] h-[55px]" href="/docs/api">docs</a>
-                            <button className="py-3 rounded-lg text-center w-[150px] h-[55px] border-2 border-white">contribute</button>
+                            <a className="py-3 rounded-lg text-center w-[150px] h-[55px] border-2 border-white" href="https://github.com/Raychal/quotes/blob/main/CONTRIBUTING.md">contribute</a>
                         </div>
                         <img src="/assets/second.png" alt="second" />
                     </div>
