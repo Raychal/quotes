@@ -1,6 +1,5 @@
 export default function Index({ data }) {
     const imageUrl = '/assets/first.png';
-    console.log(data);
     return (
         <>
             <div className="bg-white text-white">
