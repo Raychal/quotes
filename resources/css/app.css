@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.background-container {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Arial', sans-serif;
+    max-width: 400px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.text-overlay p {
+    font-style: italic;
+    margin: 0;
+}
+
+.text-overlay span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
